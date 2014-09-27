@@ -1,0 +1,1 @@
+Homework1 Text Document<!DOCTYPE><html><head><title> Homework1</title></head><body><h1>Welcome to Homework 1!</h1><?phpecho "Hello World!"?></body></html>

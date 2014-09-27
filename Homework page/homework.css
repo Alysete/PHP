@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: url('pattern1.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#homeworks{
+	width: 600px;
+	height: auto;
+	padding-left: 15px;
+	background: rgba(204,204,204,.8);
+	-moz-box-shadow: 0 0 20px black;
+	-webkit-box-shadow: 0 0 20px black; 
+	box-shadow: 0 0 20px black;
+	text-align: center;
+	float:right;
+	padding-right: 50px;
+	font-family:'Belleza', sans-serif;
+}
+#header{
+	background-color: rgba(39,144,176, .8);
+	-moz-box-shadow: 0 0 20px black;
+	-webkit-box-shadow: 0 0 20px black; 
+	box-shadow: 0 0 20px black;
+	width: 400px ;
+ 	padding-left: 10px;
+ 	float:left;
+ 	font-family: 'Karma', serif;
+}	
+
+th{
+	font-size: 1.3em;
+	color: #DC175F;
+}
+table, th, td{
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+
+	text-align: center;
+}
+
+img{
+	float:left;
+}

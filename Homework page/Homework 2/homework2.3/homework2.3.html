@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Match Game- Homework 2- Part 3</title>
+		<link rel="stylesheet" type="text/css" href="css2.3.css">
+		<link href='http://fonts.googleapis.com/css?family=News+Cycle|Bentham' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1 class="headder">Last Resort</h1> <!--I try to be funny-->
+	<div class="leftcolumn">
+		<div id="reviews">
+			<h4> Reviews from Fans</h4> <!--still trying...-->
+			<p>"This site really works"-Random person on the internet</p>
+			<p>"Definitely better than Tindr" -Another random person on the internet</p>
+		</div>
+	</div>
+		<div class="abtyou"> <!--Setting div around first form to set style options-->
+			<h2>First: About you</h2>
+				<form method="get" action= "form2pt3.php"> <!--connects to php file-->
+				<p>First Name:</p>
+					<input type="text" name="FirstName" value="Please enter your name."/> <!--prompts user for first name and last name gender age traits and some extra space for text from user-->
+				<p> Last Name</p>
+					<input type="text" name="LastName" value="Please enter your last name."/>
+				<p>Gender:</p>
+					Male:<input type="radio" name="gender" value="male"/>
+					Female:<input type="radio" name="gender" value="female"/>
+				<p>Age:</p>
+					Birthday:<input type="date" name="bday" min="1920-01-01" max="1998-01-01"/>
+				<p>Traits (please select 3 maximum):</p>
+					Athletic <input type="checkbox" name="trait[]" value="athletic"/>
+					Artistic<input type="checkbox" name="trait[]" value="artistic"/>
+					Laid Back<input type="checkbox" name="trait[]" value="laid back"/>
+					Active<input type="checkbox" name="trait[]" value="active"/>
+					Other<input type="text" name="trait[]" />
+				<p>About you</p>
+					<textarea name="comments" rows="5" cols="40">
+					Type a short introductory paragraph about yourself. Make sure to sound cool!
+					</textarea>
+			
+		</div>
+		<div class="abtthem"> <!--this is the second form where the user is prompted about their potential mate. Their gender, age range, and some traits-->
+			<h2> Second: About your mate</h2>
+				<p>Gender:</p>
+					Male: <input type="checkbox" name="theirgender[]" value="male"/>
+					Female: <input type="checkbox" name="theirgender[]" value="female"/>
+				<p>Age Range:</p>
+					<p>From </p> <input type="text" name="agemin" min="15" max="100" maxlength="2"/> <p> to </p> <input type="text" name="agemax" min="15" max="100" maxlength="2"/>
+				<p>Traits (please select 3 maximum):</p>
+					Athletic <input type="checkbox" name="theirtrait[]" value="athletic"/>
+					Artistic <input type="checkbox" name="theirtrait[]" value="artistic"/>
+					Laid Back <input type="checkbox" name="theirtrait[]" value="laid back"/>
+					Active <input type="checkbox" name="theirtrait[]" value="active"/> </br>
+					Other <input type="text" name="theirtrait[]"/>
+					</br>
+				</div>
+				<input id="submit" type="submit" name="submit"/> <!--submits information and is sent to php document-->
+			</form>
+		
+				
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Homework2</title>
+	</head>
+	<body>
+		<h1> Form</h1>
+			<form action= "form2.2.php"> <!--Start form and let the info pass to php document-->
+				<p>First Name</p>
+					<input type="text" name="FirstName" value="Please enter your name."/> <!--prompts user to enter first and last name-->
+				<p> Last Name</p>
+					<input type="text" name="LastName" value="Please enter your last name"/>
+				<p>Gender</p>
+					Male:<input type="radio" name="gender" value="male"/> <!--prompts user to enter gender-->
+					Female:<input type="radio" name="gender" value="female"/>
+				<p>School Year</p>
+					Freshman:<input type="checkbox" name="year" value="freshman"/> <!--prompts user to enter year in school-->
+					Sophomore:<input type="checkbox" name="year" value="sophomore"/>
+					Junior:<input type="checkbox" name="year" value="junior"/>
+					Senior:<input type="checkbox" name="year" value="senior"/>
+				<p>Any Comments?</p>
+				<!--prompts user to add any extra comments-->
+					<textarea name="comments" rows="3" cols="20"> 
+					If you have any comments, enter them here!
+					</textarea>
+				<input type="submit" name="submit"/>
+			</form>
+	</body>
+</html>	

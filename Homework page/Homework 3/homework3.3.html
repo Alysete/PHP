@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Homework3.3</title>
+	</head>
+	<body>
+		<h1> Form</h1>
+			<form method="post" action= "form3.3.php"> <!--Start form and let the info pass to php document-->
+				<p>First Name</p>
+					<input type="text" name="FirstName" value="Please enter your name."/> <!--prompts user to enter first and last name-->
+				<p> Last Name</p>
+					<input type="text" name="LastName" value="Please enter your last name"/>
+				<p>Gender</p>
+					Male:<input type="radio" name="gender" value="male"/> <!--prompts user to enter gender-->
+					Female:<input type="radio" name="gender" value="female"/>
+				<p>Do you like cats?</p>
+					Yes:<input type="radio" name="cats[1]" value="yes"/> <!--prompts user to enter year in school-->
+					No:<input type="radio" name="cats[0]" value="no"/>
+				<p>Which describes you best?</p>	
+					Faculty:<input type="checkbox" name="occupation" value="faculty"/>
+					Staff:<input type="checkbox" name="occupation" value="staff"/>
+					Student:<input type="checkbox" name="occupation" value="student"/>
+				<p>How many siblings do you have?</p>
+					0:<input type="radio" name="siblings[0]" value="0"> 
+					1:<input type="radio" name="siblings[1]" value="1"> 
+					2:<input type="radio" name="siblings[2]" value="2">
+					3:<input type="radio" name="siblings[3]" value="3">
+					4+:<input type="radio" name="siblings[4]" value="4">   
+				<input type="submit" name="submit"/>
+			</form>
+	</body>
+</html>	
